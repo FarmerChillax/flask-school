@@ -18,7 +18,7 @@ with open(path.join(basedir, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='Flask-School',
-    version='0.0.2',
+    version='0.0.3',
     url='https://github.com/Farmer-chong/flask-school',
     license='MIT',
     author='farmer.chillax',

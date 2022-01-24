@@ -1,5 +1,3 @@
-# flask-school
-
 [![Downloads](https://pepy.tech/badge/Flask-School)](https://pepy.tech/project/Flask-School)
 
 flask extension with new-school-sdk, 一个正方教务系统的Flask扩展
