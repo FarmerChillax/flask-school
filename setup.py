@@ -7,7 +7,7 @@
 '''
 from os import path
 from codecs import open
-from setuptools import setup
+from setuptools import setup, find_packages
 
 basedir = path.abspath(path.dirname(__file__))
 
@@ -18,7 +18,7 @@ with open(path.join(basedir, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='Flask-School',
-    version='0.0.3',
+    version='0.0.5',
     url='https://github.com/Farmer-chong/flask-school',
     license='MIT',
     author='farmer.chillax',
@@ -27,7 +27,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     platforms='any',
-    packages=['flask_school'],
+    packages=find_packages(),
     zip_safe=False,
     include_package_data=True,
     install_requires=[

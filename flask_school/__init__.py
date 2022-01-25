@@ -11,7 +11,7 @@ from school_sdk import SchoolClient, UserClient
 class School(object):
     school:SchoolClient = None
 
-    def __init__(self, app) -> None:
+    def __init__(self, app=None) -> None:
         if app is not None:
             self.init_app(app)
 

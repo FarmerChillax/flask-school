@@ -2,7 +2,6 @@
 
 flask extension with new-school-sdk, 一个正方教务系统的Flask扩展
 
-
 本项目是基于`school-sdk`的一个`Flask`扩展，封装了常用的方法.
 
 ## 相关项目
